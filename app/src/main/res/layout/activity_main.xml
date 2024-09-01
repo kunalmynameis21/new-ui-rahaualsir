@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:background=""
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="160dp"
+                android:src="@drawable/baseline_account_circle_24"
+                android:layout_marginTop="100dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login from"
+                android:textColor="@color/white"
+                android:gravity="center" />
+
+
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="password"
+                android:layout_marginTop="10dp"/>
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="login"
+                android:textColor="@color/white"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="-120dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="login"
+                android:textColor="@color/white"
+                android:layout_marginTop="-39dp"
+                android:layout_marginLeft="90dp"/>
+        </LinearLayout>
